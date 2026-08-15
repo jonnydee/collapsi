@@ -1,10 +1,10 @@
-# Collapsi : édition Joker et variantes de Renaissance
+# Collapsi : livret de règles non officiel
 
 [English](../en/rules.md) · [Deutsch](../de/rules.md) · [Français](rules.md) · [Español](../es/rules.md) · [Dépôt](https://github.com/jonnydee/collapsi)
 
 Jeu original de Mark S. Ball  
 Édition Joker non officielle avec variantes de Renaissance facultatives  
-<small>Version des règles de Renaissance : 1.0.0</small>
+<small>Édition : Collapsi Revival Edition | Version 1.0.0</small>
 
 ---
 
@@ -369,7 +369,7 @@ La Reconstruction modifie la disposition du plateau jouable sans augmenter le no
 
 Le livret de règles original téléchargeable s'identifie comme Collapsi v1.3.1 (dernière mise à jour le 9 juillet 2025). Il utilise deux Valets comme cartes de départ et chaque Valet permet un déplacement initial d'une case. Cette édition non officielle utilise délibérément deux Jokers, avec le choix de 1, 2, 3 ou 4 cases, et ajoute les variantes de Renaissance facultatives. Cette édition ne revendique aucun numéro de version officiel de Collapsi.
 
-Le concept de Renaissance et les variantes de Renaissance présentées ici ont été conçus par Johann Duscher (a.k.a. Jonny Dee) et sont maintenus dans le [dépôt Collapsi Revival](https://github.com/jonnydee/collapsi).
+Le concept de Renaissance et les variantes de Renaissance présentées ici ont été conçus par Johann Duscher (a.k.a. Jonny Dee) et sont maintenus dans le [dépôt des règles de Collapsi](https://github.com/jonnydee/collapsi).
 
 Si vous publiez, adaptez ou créez une variante dérivée des règles de Renaissance introduites dans cette version, veuillez conserver les crédits suivants lorsque cela s'applique :
 

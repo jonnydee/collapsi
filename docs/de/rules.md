@@ -1,10 +1,10 @@
-# Collapsi: Joker-Edition & Wiederbelebungsvarianten
+# Collapsi: Inoffizielles Regelwerk
 
 [Deutsch](rules.md) · [English](../en/rules.md) · [Français](../fr/rules.md) · [Español](../es/rules.md) · [Repository](https://github.com/jonnydee/collapsi)
 
 Originalspiel von Mark S. Ball  
 Inoffizielle Joker-Edition mit optionalen Wiederbelebungsvarianten  
-<small>Version der Wiederbelebungsregeln: 1.0.0</small>
+<small>Edition: Collapsi Revival Edition | Version 1.0.0</small>
 
 ---
 
@@ -367,7 +367,7 @@ Da bei der Rekonstruktion eine Karte wiederhergestellt und gleichzeitig eine and
 
 Das herunterladbare Originalregelwerk bezeichnet sich als Collapsi v1.3.1 (zuletzt aktualisiert am 9. Juli 2025). Es verwendet zwei Buben als Startkarten und erlaubt mit jedem Buben als Eröffnungszug genau ein Feld. Diese inoffizielle Edition verwendet bewusst zwei Joker mit einer Zugweite von wahlweise 1, 2, 3 oder 4 Feldern und ergänzt optionale Wiederbelebungsvarianten. Für diese Edition wird keine offizielle Collapsi-Versionsnummer beansprucht.
 
-Die Idee der Wiederbelebung sowie die hier beschriebenen Wiederbelebungsvarianten wurden von Johann Duscher (a.k.a. Jonny Dee) entwickelt und werden im [Collapsi-Revival-Repository](https://github.com/jonnydee/collapsi) gepflegt.
+Die Idee der Wiederbelebung sowie die hier beschriebenen Wiederbelebungsvarianten wurden von Johann Duscher (a.k.a. Jonny Dee) entwickelt und werden im [Collapsi-Regelrepository](https://github.com/jonnydee/collapsi) gepflegt.
 
 Wer eine Variante veröffentlicht, anpasst oder weiterentwickelt, die auf den in dieser Fassung eingeführten Wiederbelebungsregeln basiert, wird gebeten, die folgenden Urheberhinweise beizubehalten, soweit sie für die jeweilige Variante zutreffen:
 

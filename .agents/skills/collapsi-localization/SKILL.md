@@ -20,7 +20,7 @@ Inspect the repository before editing. If its current structure or build command
 - Keep shared build code, fonts, licensing, and contributor files language-independent.
 - Use lowercase BCP 47-compatible tags such as `en`, `de`, `fr`, or `pt-br`.
 - Keep English at `README.md`; use `README.<tag>.md` for every non-English language.
-- Expect `output/pdf/collapsi-revival-rules-<tag>.pdf` for every `docs/<tag>/rules.md`.
+- Expect `output/pdf/collapsi-rules-<tag>.pdf` for every `docs/<tag>/rules.md`.
 
 The PDF generator discovers `docs/*/rules.md` automatically. Do not add a per-language build configuration.
 
@@ -42,11 +42,11 @@ Do not propagate purely stylistic differences. Do not invent a rule to resolve a
 1. Inspect all current editions and select the source requested by the user. Otherwise choose the most complete current edition and cross-check it against at least one other language.
 2. Choose a lowercase BCP 47-compatible tag. Use a regional subtag only when the content genuinely targets that locale.
 3. Establish natural, consistent board-game terms for recurring concepts before translating the full text.
-4. Create `docs/<tag>/rules.md` with the same semantic sections, rules, numbers, links, unobtrusive Revival version line, credits, attribution, and license scope.
+4. Create `docs/<tag>/rules.md` with the same semantic sections, rules, numbers, links, unobtrusive edition and version line, credits, attribution, and license scope.
 5. Create `README.<tag>.md` for non-English languages. Keep `README.md` as the English landing page.
 6. Update the language switcher in every README and rulebook. Update every README's language table with Markdown and PDF links for every language.
 7. Add the translator and language to `CONTRIBUTORS.md` only with the contributor's consent. Do not infer a real name from an account name.
-8. Do not change `VERSION` merely for a translation unless the user explicitly requests a release. If making a release, follow `CONTRIBUTING.md` and update all release metadata together.
+8. Do not change `EDITION_NAME` or `VERSION` merely for a translation unless the user explicitly requests a release. If making a release, follow `CONTRIBUTING.md` and update all release metadata together.
 9. Run the complete validation and PDF workflow below. The existing generator must create the new PDF without a build-script registration step.
 
 ## Build and validate all languages

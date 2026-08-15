@@ -1,10 +1,10 @@
-# Collapsi: edición Joker y variantes de Renacimiento
+# Collapsi: reglamento no oficial
 
 [English](../en/rules.md) · [Deutsch](../de/rules.md) · [Français](../fr/rules.md) · [Español](rules.md) · [Repositorio](https://github.com/jonnydee/collapsi)
 
 Juego original de Mark S. Ball  
 Edición Joker no oficial con variantes de Renacimiento opcionales  
-<small>Versión de las reglas de Renacimiento: 1.0.0</small>
+<small>Edición: Collapsi Revival Edition | Versión 1.0.0</small>
 
 ---
 
@@ -369,7 +369,7 @@ La Reconstrucción cambia la disposición del tablero jugable sin aumentar el n�
 
 El reglamento original descargable se identifica como Collapsi v1.3.1 (actualizado por última vez el 9 de julio de 2025). Usa dos Jotas como cartas iniciales y cada Jota permite un movimiento inicial de una casilla. Esta edición no oficial usa deliberadamente dos Jokers, con una elección de 1, 2, 3 o 4 casillas, e incorpora las variantes de Renacimiento opcionales. Esta edición no reclama ningún número de versión oficial de Collapsi.
 
-El concepto de Renacimiento y las variantes de Renacimiento que se presentan aquí fueron concebidos por Johann Duscher (a.k.a. Jonny Dee) y se mantienen en el [repositorio Collapsi Revival](https://github.com/jonnydee/collapsi).
+El concepto de Renacimiento y las variantes de Renacimiento que se presentan aquí fueron concebidos por Johann Duscher (a.k.a. Jonny Dee) y se mantienen en el [repositorio de reglas de Collapsi](https://github.com/jonnydee/collapsi).
 
 Si publicas, adaptas o creas una variante derivada de las reglas de Renacimiento introducidas en esta versión, conserva los siguientes créditos cuando corresponda:
 

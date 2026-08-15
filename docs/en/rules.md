@@ -1,10 +1,10 @@
-# Collapsi: Joker Edition & Revival Variations
+# Collapsi: Unofficial Rulebook
 
 [English](rules.md) · [Deutsch](../de/rules.md) · [Français](../fr/rules.md) · [Español](../es/rules.md) · [Repository](https://github.com/jonnydee/collapsi)
 
 Original game by Mark S. Ball  
 Unofficial Joker Edition with optional Revival Variations  
-<small>Revival rules version 1.0.0</small>
+<small>Edition: Collapsi Revival Edition | Version 1.0.0</small>
 
 ---
 
@@ -369,7 +369,7 @@ Reconstruction changes the layout of the playable board without increasing the t
 
 The downloadable original rulebook identifies itself as Collapsi v1.3.1 (last updated July 9, 2025). It uses two Jacks as starting cards and gives each Jack a one-space opening move. This unofficial edition deliberately uses two Jokers with a choice of 1, 2, 3, or 4 spaces and adds optional Revival Variations. No official Collapsi version number is claimed for this edition.
 
-The Revival concept and the Revival Variations presented here were conceived by Johann Duscher (a.k.a. Jonny Dee) and are maintained in the [Collapsi Revival repository](https://github.com/jonnydee/collapsi).
+The Revival concept and the Revival Variations presented here were conceived by Johann Duscher (a.k.a. Jonny Dee) and are maintained in the [Collapsi rules repository](https://github.com/jonnydee/collapsi).
 
 If you publish, adapt, or create a variant derived from the Revival rules introduced in this version, please retain the following credits where applicable:
 

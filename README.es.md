@@ -1,31 +1,31 @@
-# Collapsi: edición Joker y variantes de Renacimiento
+# Collapsi: colección de reglas no oficial
 
 [English](README.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Español](README.es.md)
 
-Este repositorio contiene una edición multilingüe **no oficial** de las reglas de [Collapsi](https://riffleshuffleandroll.itch.io/collapsi), el juego de estrategia abstracta inventado por **Mark S. Ball**, de Riffle Shuffle & Roll.
+Este repositorio contiene una colección multilingüe **no oficial** de reglas de [Collapsi](https://riffleshuffleandroll.itch.io/collapsi), el juego de estrategia abstracta inventado por **Mark S. Ball**, de Riffle Shuffle & Roll.
 
-La edición usa Jokers como cartas iniciales e incluye **variantes de Renacimiento** opcionales creadas por **Johann Duscher (a.k.a. Jonny Dee)**. Estos añadidos permiten que las cartas colapsadas vuelvan al juego de varias formas controladas. Este proyecto es independiente y no es una publicación oficial de Mark S. Ball.
+La publicación actual, **Collapsi Revival Edition**, usa Jokers como cartas iniciales e incluye **variantes de Renacimiento** opcionales creadas por **Johann Duscher (a.k.a. Jonny Dee)**. Estos añadidos permiten que las cartas colapsadas vuelvan al juego de varias formas controladas. Este proyecto es independiente y no es una publicación oficial de Mark S. Ball.
 
-## Referencia original y esta edición
+## Referencia original y publicación actual
 
-El reglamento original descargable se identifica como **Collapsi v1.3.1**, actualizado por última vez el 9 de julio de 2025. Usa dos Jotas como cartas iniciales y cada Jota permite un movimiento inicial de una casilla. Esta edición no oficial usa deliberadamente en su lugar dos Jokers, con una elección de 1, 2, 3 o 4 casillas, e incorpora las variantes de Renacimiento. Otras explicaciones en el [canal de YouTube de Riffle Shuffle & Roll](https://www.youtube.com/@riffleshuffleandroll) pueden reflejar fases distintas del desarrollo del juego original; este repositorio no deduce de ellas ningún número de versión oficial.
+El reglamento original descargable se identifica como **Collapsi v1.3.1**, actualizado por última vez el 9 de julio de 2025. Usa dos Jotas como cartas iniciales y cada Jota permite un movimiento inicial de una casilla. La publicación no oficial actual usa deliberadamente en su lugar dos Jokers, con una elección de 1, 2, 3 o 4 casillas, e incorpora las variantes de Renacimiento. Otras explicaciones en el [canal de YouTube de Riffle Shuffle & Roll](https://www.youtube.com/@riffleshuffleandroll) pueden reflejar fases distintas del desarrollo del juego original; este repositorio no deduce de ellas ningún número de versión oficial.
 
 ## Reglas
 
 | Idioma | Markdown | PDF |
 | --- | --- | --- |
-| English | [Read online](docs/en/rules.md) | [Download PDF](output/pdf/collapsi-revival-rules-en.pdf) |
-| Deutsch | [Online lesen](docs/de/rules.md) | [PDF herunterladen](output/pdf/collapsi-revival-rules-de.pdf) |
-| Français | [Lire en ligne](docs/fr/rules.md) | [Télécharger le PDF](output/pdf/collapsi-revival-rules-fr.pdf) |
-| Español | [Leer en línea](docs/es/rules.md) | [Descargar PDF](output/pdf/collapsi-revival-rules-es.pdf) |
+| English | [Read online](docs/en/rules.md) | [Download PDF](output/pdf/collapsi-rules-en.pdf) |
+| Deutsch | [Online lesen](docs/de/rules.md) | [PDF herunterladen](output/pdf/collapsi-rules-de.pdf) |
+| Français | [Lire en ligne](docs/fr/rules.md) | [Télécharger le PDF](output/pdf/collapsi-rules-fr.pdf) |
+| Español | [Leer en línea](docs/es/rules.md) | [Descargar PDF](output/pdf/collapsi-rules-es.pdf) |
 
 El README raíz está en inglés porque GitHub muestra `README.md` automáticamente. Cada README y reglamento comienza con un selector de idioma compacto, para que los lectores puedan llegar a su idioma con un clic.
 
 ## Versionado
 
-La edición Renacimiento tiene su **propia versión semántica**. Las publicaciones y etiquetas Git usan `edition-vMAJOR.MINOR.PATCH`, por ejemplo `edition-v1.0.0`. Consulta la [lista de publicación](RELEASE.md), disponible en inglés, antes de publicar.
+Esta colección de reglas usa su **propia versión semántica** y un nombre de edición específico para cada publicación. La publicación actual es **Collapsi Revival Edition**, versión **1.0.0**. Las publicaciones y etiquetas Git usan `edition-vMAJOR.MINOR.PATCH`, por ejemplo `edition-v1.0.0`. Consulta la [lista de publicación](RELEASE.md), disponible en inglés, antes de publicar.
 
-Este número identifica únicamente esta edición no oficial. Es deliberadamente independiente de versiones desconocidas o cambiantes de las reglas originales de Collapsi y no debe presentarse como una versión oficial de Collapsi. La compatibilidad con una versión concreta de las reglas originales debe documentarse en las notas de publicación, no codificarse en el número de versión.
+Este número identifica únicamente esta colección de reglas no oficial. Es deliberadamente independiente de versiones desconocidas o cambiantes de las reglas originales de Collapsi y no debe presentarse como una versión oficial de Collapsi. La compatibilidad con una versión concreta de las reglas originales debe documentarse en las notas de publicación, no codificarse en el número de versión.
 
 ## Estructura del repositorio
 

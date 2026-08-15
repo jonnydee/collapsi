@@ -65,6 +65,13 @@ def validate(root: Path, require_pdfs: bool) -> tuple[list[str], list[Path]]:
     else:
         version = version_file.read_text(encoding="utf-8").strip()
 
+    edition_name_file = root / "EDITION_NAME"
+    if not edition_name_file.is_file():
+        errors.append("missing EDITION_NAME")
+        edition_name = ""
+    else:
+        edition_name = edition_name_file.read_text(encoding="utf-8").strip()
+
     tags = [source.parent.name for source in sources]
     for tag in tags:
         if not TAG_PATTERN.fullmatch(tag):
@@ -85,7 +92,7 @@ def validate(root: Path, require_pdfs: bool) -> tuple[list[str], list[Path]]:
     rule_targets = {source.resolve() for source in sources}
     readme_targets = {readme.resolve() for readme in readmes}
     pdfs = [
-        root / "output" / "pdf" / f"collapsi-revival-rules-{tag}.pdf"
+        root / "output" / "pdf" / f"collapsi-rules-{tag}.pdf"
         for tag in tags
     ]
     pdf_targets = {pdf.resolve() for pdf in pdfs}
@@ -98,6 +105,10 @@ def validate(root: Path, require_pdfs: bool) -> tuple[list[str], list[Path]]:
                 errors.append(f"{label}: missing required text or URL: {required}")
         if version and version not in text:
             errors.append(f"{label}: does not contain VERSION value {version}")
+        if edition_name and edition_name not in text:
+            errors.append(
+                f"{label}: does not contain EDITION_NAME value {edition_name}"
+            )
         targets = relative_targets(source)
         missing_navigation = rule_targets - targets - {source.resolve()}
         for target in sorted(missing_navigation):
@@ -115,6 +126,10 @@ def validate(root: Path, require_pdfs: bool) -> tuple[list[str], list[Path]]:
                 errors.append(f"{label}: missing required text or URL: {required}")
         if version and version not in text:
             errors.append(f"{label}: does not contain VERSION value {version}")
+        if edition_name and edition_name not in text:
+            errors.append(
+                f"{label}: does not contain EDITION_NAME value {edition_name}"
+            )
         targets = relative_targets(readme)
         expected = rule_targets | readme_targets | pdf_targets
         for target in sorted(expected - targets - {readme.resolve()}):
@@ -145,7 +160,7 @@ def validate(root: Path, require_pdfs: bool) -> tuple[list[str], list[Path]]:
             elif not pdf.read_bytes().startswith(b"%PDF-"):
                 errors.append(f"invalid PDF signature: {pdf.relative_to(root)}")
         output_dir = root / "output" / "pdf"
-        actual = set(output_dir.glob("collapsi-revival-rules-*.pdf"))
+        actual = set(output_dir.glob("collapsi-*.pdf"))
         stale = actual - set(pdfs)
         for pdf in sorted(stale):
             errors.append(f"stale generated language PDF: {pdf.relative_to(root)}")

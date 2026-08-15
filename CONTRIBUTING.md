@@ -1,12 +1,12 @@
 # Contributing
 
-Contributions and translations are welcome. Please preserve the distinction between the original Collapsi game and the unofficial Revival edition.
+Contributions and translations are welcome. Please preserve the distinction between the original Collapsi game and this unofficial rules collection.
 
 ## Add a translation
 
 1. Create `docs/<language-tag>/rules.md` by translating the selected current source language. English is not required to be the master language; any existing language may be the source when adding or synchronizing documentation.
 2. Use a short lowercase BCP 47-compatible directory tag such as `fr`, `es`, or `pt-br`.
-3. Preserve the rule hierarchy, version line, official Collapsi link, repository link, credits, and licensing notice.
+3. Preserve the rule hierarchy, edition and version line, official Collapsi link, repository link, credits, and licensing notice.
 4. Add the language to the switcher at the top of every README and rulebook.
 5. Add Markdown and PDF links to both READMEs.
 6. Run the complete locked validation and build. It discovers every language automatically, checks links and metadata, invokes the PDF generator twice, and verifies byte-for-byte reproducibility:
@@ -44,7 +44,7 @@ The skill does not replace human review. Check the complete diff, confirm that t
 
 ## Version changes
 
-The project follows semantic versioning for the Revival edition:
+The project follows semantic versioning for the unofficial rules collection. Each release also has its own edition name in `EDITION_NAME`:
 
 - **PATCH**: wording, typo, layout, or translation corrections that do not change rules.
 - **MINOR**: backward-compatible additions such as a new optional Revival variant or a new language.
@@ -53,9 +53,10 @@ The project follows semantic versioning for the Revival edition:
 Before publishing, follow the complete [release checklist](RELEASE.md). It
 identifies every version and date location, requires reproducible PDFs and
 visual review, and covers tagging and GitHub Release publication. Update
-`VERSION`, `RELEASE_DATE`, `pyproject.toml`, the unobtrusive version line in
-every rulebook, every README's displayed release status, and `CHANGELOG.md` in
-the same change. Use Git tags in the form `edition-vMAJOR.MINOR.PATCH`.
+`EDITION_NAME`, `VERSION`, `RELEASE_DATE`, `pyproject.toml`, the unobtrusive
+edition and version line in every rulebook, every README's displayed release
+identity, and `CHANGELOG.md` in the same change. Use Git tags in the form
+`edition-vMAJOR.MINOR.PATCH`.
 
 ## Attribution
 

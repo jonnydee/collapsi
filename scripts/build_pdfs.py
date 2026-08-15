@@ -11,15 +11,12 @@ from urllib.parse import quote
 
 from reportlab import rl_config
 from reportlab.lib import colors
-from reportlab.lib.enums import TA_CENTER
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import mm
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import (
-    ListFlowable,
-    ListItem,
     Paragraph,
     SimpleDocTemplate,
     Spacer,
@@ -120,6 +117,21 @@ def styles() -> dict[str, ParagraphStyle]:
             spaceAfter=7,
             splitLongWords=False,
         ),
+        "bullet": ParagraphStyle(
+            "Bullet",
+            parent=base["BodyText"],
+            fontName="NotoSans",
+            fontSize=9.7,
+            leading=14.3,
+            textColor=colors.HexColor("#17212b"),
+            bulletFontName="NotoSans",
+            bulletFontSize=8,
+            bulletColor=GOLD,
+            leftIndent=7,
+            bulletIndent=-7,
+            spaceAfter=5,
+            splitLongWords=False,
+        ),
         "nav": ParagraphStyle(
             "Navigation",
             parent=base["BodyText"],
@@ -201,8 +213,6 @@ def flowables(source: str, source_file: Path) -> list[object]:
         heading = re.match(r"^(#{1,4})\s+(.+)$", stripped)
         if heading:
             level = len(heading.group(1))
-            if level == 2:
-                result.append(Spacer(1, 2))
             result.append(
                 Paragraph(inline_markup(heading.group(2), source_file), style[f"h{level}"])
             )
@@ -213,30 +223,18 @@ def flowables(source: str, source_file: Path) -> list[object]:
             continue
 
         if stripped.startswith("- "):
-            items: list[ListItem] = []
             while index < len(lines) and lines[index].strip().startswith("- "):
                 item_text = lines[index].strip()[2:]
-                items.append(
-                    ListItem(
-                        Paragraph(inline_markup(item_text, source_file), style["body"]),
-                        leftIndent=7,
+                result.append(
+                    Paragraph(
+                        inline_markup(item_text, source_file),
+                        style["bullet"],
+                        bulletText="•",
                     )
                 )
                 index += 1
                 while index < len(lines) and not lines[index].strip():
                     index += 1
-            result.append(
-                ListFlowable(
-                    items,
-                    bulletType="bullet",
-                    bulletFontName="NotoSans",
-                    bulletFontSize=8,
-                    bulletColor=GOLD,
-                    leftIndent=15,
-                    bulletOffsetY=1,
-                    spaceAfter=6,
-                )
-            )
             continue
 
         block: list[str] = []
@@ -272,12 +270,14 @@ def page_decoration(canvas, document) -> None:
     canvas.restoreState()
 
 
-def build(source_file: Path, version: str, release_date: str) -> Path:
+def build(
+    source_file: Path, edition_name: str, version: str, release_date: str
+) -> Path:
     language = source_file.parent.name
     source = source_file.read_text(encoding="utf-8")
     title = title_from(source)
     OUTPUT.mkdir(parents=True, exist_ok=True)
-    target = OUTPUT / f"collapsi-revival-rules-{language}.pdf"
+    target = OUTPUT / f"collapsi-rules-{language}.pdf"
 
     document = RulebookDocTemplate(
         str(target),
@@ -288,7 +288,9 @@ def build(source_file: Path, version: str, release_date: str) -> Path:
         bottomMargin=14 * mm,
         title=title,
         author="Mark S. Ball; Johann Duscher",
-        subject=f"Unofficial Collapsi Revival rules {version} ({release_date})",
+        subject=(
+            f"{edition_name} - unofficial Collapsi rules {version} ({release_date})"
+        ),
         creator=f"Collapsi PDF build {version}",
         invariant=1,
     )
@@ -299,13 +301,18 @@ def build(source_file: Path, version: str, release_date: str) -> Path:
 def main() -> None:
     rl_config.invariant = 1
     register_fonts()
+    edition_name = read_setting("EDITION_NAME")
     version = read_setting("VERSION")
     release_date = read_setting("RELEASE_DATE")
     sources = sorted(DOCS.glob("*/rules.md"))
     if not sources:
         raise SystemExit("No docs/<language>/rules.md files found")
     for source_file in sources:
-        print(build(source_file, version, release_date).relative_to(ROOT).as_posix())
+        print(
+            build(source_file, edition_name, version, release_date)
+            .relative_to(ROOT)
+            .as_posix()
+        )
 
 
 if __name__ == "__main__":

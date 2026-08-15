@@ -6,7 +6,7 @@ This file records creative roles that are not always obvious from Git history. I
 
 - **Mark S. Ball** — inventor and designer of Collapsi; [official game page](https://riffleshuffleandroll.itch.io/collapsi). Mark is credited as the original designer, not represented as a contributor to this repository.
 
-## Revival edition
+## Revival contributions
 
 - **Johann Duscher (a.k.a. Jonny Dee)** — originator of the Revival concept and Revival Variations; repository maintainer and editor.
 

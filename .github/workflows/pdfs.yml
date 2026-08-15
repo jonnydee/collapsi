@@ -38,6 +38,6 @@ jobs:
       - name: Publish PDFs as a workflow artifact
         uses: actions/upload-artifact@v4
         with:
-          name: collapsi-revival-rules
+          name: collapsi-rules
           path: output/pdf/*.pdf
           if-no-files-found: error

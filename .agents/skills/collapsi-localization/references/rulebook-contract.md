@@ -7,10 +7,10 @@ Read this entire reference before adding or synchronizing a rulebook language.
 - Rulebook Markdown: `docs/<lowercase-bcp47-tag>/rules.md`
 - English landing page: `README.md`
 - Other landing pages: `README.<tag>.md`
-- Generated PDF: `output/pdf/collapsi-revival-rules-<tag>.pdf`
+- Generated PDF: `output/pdf/collapsi-rules-<tag>.pdf`
 - Shared generator: `scripts/build_pdfs.py`
 - Locked environment: `pyproject.toml` and `uv.lock`
-- Shared metadata: `VERSION` and `RELEASE_DATE`
+- Shared metadata: `EDITION_NAME`, `VERSION`, and `RELEASE_DATE`
 - Contribution/release policy: `CONTRIBUTING.md`
 
 The generator sorts and builds every `docs/*/rules.md`; a new language needs no registry entry. It uses pinned ReportLab, vendored Noto Sans fonts, fixed metadata, and invariant output. Never manually edit generated PDFs.
@@ -86,11 +86,12 @@ A Joker allows a move of 1, 2, 3, or 4 spaces. Movement is orthogonal and may ch
 - Johann Duscher (a.k.a. Jonny Dee) originated the Revival concept and Revival Variations.
 - This repository is unofficial and must not imply Mark S. Ball's endorsement.
 - The original downloadable rulebook identifies itself as Collapsi v1.3.1, last updated July 9, 2025. It uses Jacks with a one-space opening move.
-- This edition deliberately uses Jokers with a choice of 1–4 spaces and has its own version from `VERSION`.
-- Display the Revival version visibly but unobtrusively in every rulebook.
-- Never present the Revival version as an official Collapsi version.
+- The current release deliberately uses Jokers with a choice of 1–4 spaces.
+- Every release has a release-specific name from `EDITION_NAME` and its own version from `VERSION`.
+- Display the edition name and version visibly but unobtrusively in every rulebook.
+- Never present the edition name or version as official Collapsi metadata.
 
-Do not bump the project version only because a translation was added unless preparing a release at the user's request. For a release, follow Semantic Versioning and update `VERSION`, `RELEASE_DATE`, every rulebook version line, and `CHANGELOG.md` together. Tags use `edition-vMAJOR.MINOR.PATCH`.
+Do not change the edition name or bump the project version only because a translation was added unless preparing a release at the user's request. For a release, choose a new `EDITION_NAME`, follow Semantic Versioning, and update `VERSION`, `RELEASE_DATE`, every rulebook edition/version line, every README, and `CHANGELOG.md` together. Tags use `edition-vMAJOR.MINOR.PATCH`.
 
 ## Attribution, licensing, and links
 
