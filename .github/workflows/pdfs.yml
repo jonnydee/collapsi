@@ -1,0 +1,43 @@
+name: Build rulebook PDFs
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pdfs:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.12.3"
+
+      - name: Install locked dependencies
+        run: uv sync --locked
+
+      - name: Validate and build every language
+        run: uv run --locked python .agents/skills/collapsi-localization/scripts/verify_localizations.py --root . --build
+
+      - name: Verify committed PDFs are current
+        run: git diff --exit-code -- output/pdf
+
+      - name: Publish PDFs as a workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: collapsi-revival-rules
+          path: output/pdf/*.pdf
+          if-no-files-found: error

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Collapsi Localization"
+  short_description: "Synchronize rules and build every language"
+  default_prompt: "Use $collapsi-localization to add or synchronize a Collapsi language and reproducibly build all rulebook PDFs."
