@@ -4,11 +4,11 @@
 
 This repository contains an **unofficial** multilingual rules collection for [Collapsi](https://riffleshuffleandroll.itch.io/collapsi), the abstract strategy game invented by **Mark S. Ball** of Riffle Shuffle & Roll.
 
-The current release, **Collapsi Revival Edition**, uses Jokers as starting cards and includes optional **Revival Variations** created by **Johann Duscher (a.k.a. Jonny Dee)**. These additions let collapsed cards return to play in several controlled ways. This project is independent and is not an official release by Mark S. Ball.
+The current release, **Collapsi Revival Edition**, documents both Mark S. Ball's updated Jack setup for the standard 2-player game and the earlier Joker setup. It also includes optional **Revival Variations** created by **Johann Duscher (a.k.a. Jonny Dee)**; these continue to use the Joker setup and let collapsed cards return to play in several controlled ways. This project is independent and is not an official release by Mark S. Ball.
 
 ## Original reference and the current release
 
-The downloadable original rulebook identifies itself as **Collapsi v1.3.1**, last updated July 9, 2025. It uses two Jacks as starting cards, and each Jack allows a one-space opening move. The current unofficial release deliberately uses two Jokers instead, with a choice of 1, 2, 3, or 4 spaces, and adds the Revival Variations. Other explanations on the [Riffle Shuffle & Roll YouTube channel](https://www.youtube.com/@riffleshuffleandroll) may reflect different stages of the original game's development; this repository does not infer an official version number for them.
+The downloadable original rulebook identifies itself as **Collapsi v1.3.1**, last updated July 9, 2025. It uses two Jacks as starting cards, and each Jack allows a one-space opening move. This unofficial release documents that updated setup alongside the earlier Joker setup, in which a Joker allows a choice of 1, 2, 3, or 4 spaces. The Revival Variations remain based on the Joker setup. Other explanations on the [Riffle Shuffle & Roll YouTube channel](https://www.youtube.com/@riffleshuffleandroll) may reflect different stages of the original game's development; this repository does not infer an official version number for them.
 
 ## Rules
 
@@ -23,7 +23,7 @@ The root README is English because GitHub displays `README.md` automatically. Ev
 
 ## Versioning
 
-This rules collection uses its **own semantic version** and a release-specific edition name. The current release is **Collapsi Revival Edition**, version **1.0.0**. Releases and Git tags use `edition-vMAJOR.MINOR.PATCH`, for example `edition-v1.0.0`. Follow the [release checklist](RELEASE.md) when publishing a version.
+This rules collection uses its **own semantic version** and an edition name. The current release is **Collapsi Revival Edition**, version **1.0.1**. Compatible patch releases retain their edition name; releases that add new variants receive a new name. Releases and Git tags use `edition-vMAJOR.MINOR.PATCH`, for example `edition-v1.0.1`. Follow the [release checklist](RELEASE.md) when publishing a version.
 
 This number identifies only this unofficial rules collection. It is deliberately independent of unknown or changing versions of the original Collapsi rules and must not be presented as an official Collapsi version. Compatibility with a particular original rules release should be documented in release notes instead of encoded in the version number.
 
@@ -45,7 +45,7 @@ The PDF pipeline uses [ReportLab](https://www.reportlab.com/opensource/). It avo
 
 ```sh
 uv sync --locked
-uv run python scripts/build_pdfs.py
+uv run --locked python scripts/build_pdfs.py
 ```
 
 Pinned dependencies, one shared renderer, vendored Noto Sans fonts, fixed release metadata, and stable filenames make builds reproducible. The GitHub Actions workflow rebuilds every language and rejects stale committed PDFs; it also publishes the PDFs as a workflow artifact.

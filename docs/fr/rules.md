@@ -3,12 +3,15 @@
 [English](../en/rules.md) · [Deutsch](../de/rules.md) · [Français](rules.md) · [Español](../es/rules.md) · [Dépôt](https://github.com/jonnydee/collapsi)
 
 Jeu original de Mark S. Ball  
-Édition Joker non officielle avec variantes de Renaissance facultatives  
-<small>Édition : Collapsi Revival Edition | Version 1.0.0</small>
+Recueil de règles non officiel avec variantes de Renaissance facultatives
+
+<small>Édition : Collapsi Revival Edition | Version 1.0.1</small>
 
 ---
 
-## Objectif
+## Variante officielle avec les Jokers
+
+### Objectif
 
 Déplacez votre pion sur le plateau tandis que les cartes derrière lui s'effondrent.
 
@@ -18,7 +21,7 @@ Le dernier joueur à avoir effectué un déplacement légal gagne.
 
 ---
 
-## Joueurs
+### Joueurs
 
 2 joueurs
 
@@ -26,7 +29,7 @@ Des règles facultatives pour des plateaux plus grands sont proposées pour 3 et
 
 ---
 
-## Matériel
+### Matériel
 
 Pour la partie standard sur un plateau de 4 × 4, il vous faut :
 
@@ -45,7 +48,7 @@ Un Joker permet de se déplacer de 1, 2, 3 ou 4 cases.
 
 ---
 
-## Mise en place
+### Mise en place
 
 Choisissez le joueur 1.
 
@@ -61,7 +64,7 @@ Le joueur 1 commence.
 
 ---
 
-## Déroulement de la partie
+### Déroulement de la partie
 
 Lors de votre tour, la carte sous votre pion est votre carte de départ.
 
@@ -83,7 +86,7 @@ La carte face visible sur laquelle votre pion termine son déplacement devient v
 
 ---
 
-## Déplacement
+### Déplacement
 
 Déplacez votre pion orthogonalement :
 
@@ -104,7 +107,7 @@ Par exemple, si vous devez vous déplacer de quatre cases, vous pouvez :
 
 ---
 
-## Boucler autour du plateau
+### Boucler autour du plateau
 
 Le plateau se raccorde à ses bords opposés.
 
@@ -116,7 +119,7 @@ De même, si vous dépassez le bord supérieur, continuez depuis le bas de la m�
 
 ---
 
-## Restrictions de déplacement
+### Restrictions de déplacement
 
 Au cours d'un même tour :
 
@@ -130,7 +133,7 @@ Vous pouvez traverser une carte occupée par le pion d'un autre joueur, mais vou
 
 ---
 
-## Effondrement des cartes
+### Effondrement des cartes
 
 Après chaque déplacement réussi, retournez face cachée la carte sur laquelle votre tour a commencé.
 
@@ -142,7 +145,7 @@ Un Joker s'effondre comme toute autre carte de départ.
 
 ---
 
-## Fin de partie
+### Fin de partie
 
 Si vous ne pouvez pas accomplir légalement votre déplacement obligatoire, la partie prend fin immédiatement.
 
@@ -152,11 +155,50 @@ Le dernier joueur à avoir effectué un déplacement légal gagne.
 
 ---
 
+## Variante officielle avec les Valets
+
+Les règles actualisées de Mark S. Ball pour la partie standard à 2 joueurs. Les deux Jokers sont remplacés par deux Valets différents, et le premier déplacement de chaque joueur change également.
+
+Pour cette version en 4 × 4, utilisez :
+
+- 2 pions distincts
+- 2 Valets différents
+- 4 As
+- 4 Deux
+- 4 Trois
+- 2 Quatre
+
+16 cartes au total
+
+Désignez le joueur 1.
+
+Le joueur 1 mélange les 16 cartes et les distribue face visible en une grille de 4 × 4.
+
+Le premier Valet distribué est la carte de départ du joueur 1.
+
+Le deuxième Valet est la carte de départ du joueur 2.
+
+Chaque joueur place son pion sur son Valet de départ.
+
+Le joueur 1 commence.
+
+La première fois que chaque joueur quitte son Valet de départ, il doit se déplacer d'exactement 1 case.
+
+Une fois ce déplacement initial terminé, retournez le Valet face cachée comme d'habitude.
+
+Ensuite, la carte face visible sur laquelle le pion du joueur termine son déplacement détermine normalement son déplacement au tour suivant.
+
+Toutes les autres règles normales à 2 joueurs restent en vigueur.
+
+Les variantes de Renaissance de ce livret continuent d'utiliser la mise en place avec les Jokers et le choix d'un déplacement de 1, 2, 3 ou 4 cases depuis un Joker.
+
+---
+
 ## Variantes facultatives
 
-Les règles suivantes modifient la façon de jouer à Collapsi.
+Les règles suivantes permettent de modifier Collapsi de différentes façons.
 
-Sauf indication contraire d'une variante, toutes les règles normales restent en vigueur.
+Sauf indication contraire d'une variante, toutes les règles normales de la variante avec les Jokers restent en vigueur. Vous pouvez bien entendu décider d'utiliser à la place la nouvelle version de Collapsi avec les Valets de Mark en y appliquant les modifications suivantes.
 
 ---
 
@@ -263,7 +305,7 @@ La partie se déroule ensuite normalement.
 
 ---
 
-## Variantes de Renaissance
+## Variantes de Renaissance facultatives
 
 Les variantes suivantes permettent à des cartes effondrées de revenir en jeu.
 
@@ -272,6 +314,8 @@ Pour une partie normale, n'utilisez pas plus d'une variante de Renaissance par p
 Ne combinez plusieurs variantes de Renaissance que si tous les joueurs acceptent de les essayer.
 
 La capacité de Renaissance utilisable une fois par partie est suivie séparément pour chaque joueur.
+
+Toutes les règles normales de la variante avec les Jokers restent en vigueur. Vous pouvez bien entendu décider d'utiliser à la place la nouvelle version de Collapsi avec les Valets de Mark en y appliquant les modifications suivantes.
 
 ---
 
@@ -367,7 +411,7 @@ La Reconstruction modifie la disposition du plateau jouable sans augmenter le no
 
 [Collapsi](https://riffleshuffleandroll.itch.io/collapsi) a été inventé par Mark S. Ball de Riffle Shuffle & Roll.
 
-Le livret de règles original téléchargeable s'identifie comme Collapsi v1.3.1 (dernière mise à jour le 9 juillet 2025). Il utilise deux Valets comme cartes de départ et chaque Valet permet un déplacement initial d'une case. Cette édition non officielle utilise délibérément deux Jokers, avec le choix de 1, 2, 3 ou 4 cases, et ajoute les variantes de Renaissance facultatives. Cette édition ne revendique aucun numéro de version officiel de Collapsi.
+Le livret de règles original téléchargeable s'identifie comme Collapsi v1.3.1 (dernière mise à jour le 9 juillet 2025). Il utilise deux Valets comme cartes de départ et chaque Valet permet un déplacement initial d'une case. Cette édition non officielle présente cette mise en place actualisée aux côtés de l'ancienne mise en place avec les Jokers et son choix de 1, 2, 3 ou 4 cases. Les variantes de Renaissance facultatives restent fondées sur la mise en place avec les Jokers. Cette édition ne revendique aucun numéro de version officiel de Collapsi.
 
 Le concept de Renaissance et les variantes de Renaissance présentées ici ont été conçus par Johann Duscher (a.k.a. Jonny Dee) et sont maintenus dans le [dépôt des règles de Collapsi](https://github.com/jonnydee/collapsi).
 

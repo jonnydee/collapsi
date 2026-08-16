@@ -3,12 +3,15 @@
 [Deutsch](rules.md) · [English](../en/rules.md) · [Français](../fr/rules.md) · [Español](../es/rules.md) · [Repository](https://github.com/jonnydee/collapsi)
 
 Originalspiel von Mark S. Ball  
-Inoffizielle Joker-Edition mit optionalen Wiederbelebungsvarianten  
-<small>Edition: Collapsi Revival Edition | Version 1.0.0</small>
+Inoffizielle Regelsammlung mit optionalen Wiederbelebungsvarianten
+
+<small>Edition: Collapsi Revival Edition | Version 1.0.1</small>
 
 ---
 
-## Spielziel
+## Offizielle Joker Variante
+
+### Spielziel
 
 Bewege deine Spielfigur über das Kartenfeld, während hinter dir nach und nach Karten kollabieren und aus dem Spiel verschwinden.
 
@@ -18,7 +21,7 @@ Es gewinnt, wer zuletzt noch einen vollständigen, regelgerechten Zug ausführen
 
 ---
 
-## Spielerzahl
+### Spielerzahl
 
 2 Spieler
 
@@ -26,7 +29,7 @@ Mit den größeren Spielfeldvarianten kann Collapsi auch zu dritt oder zu viert 
 
 ---
 
-## Spielmaterial
+### Spielmaterial
 
 Für das Standardspiel auf einem 4 × 4-Spielfeld benötigt ihr:
 
@@ -45,7 +48,7 @@ Wer seinen Zug auf einem Joker beginnt, darf sich 1, 2, 3 oder 4 Felder weit bew
 
 ---
 
-## Spielvorbereitung
+### Spielvorbereitung
 
 Bestimmt zunächst Spieler 1.
 
@@ -61,7 +64,7 @@ Spieler 1 beginnt.
 
 ---
 
-## Spielablauf
+### Spielablauf
 
 Zu Beginn jedes Zuges steht deine Spielfigur auf deiner Startkarte.
 
@@ -83,7 +86,7 @@ Die offene Karte, auf der deine Spielfigur am Ende des Zuges steht, ist deine St
 
 ---
 
-## Bewegung
+### Bewegung
 
 Spielfiguren werden ausschließlich waagerecht oder senkrecht bewegt:
 
@@ -104,7 +107,7 @@ Musst du beispielsweise vier Felder ziehen, könntest du:
 
 ---
 
-## Spielfeldränder
+### Spielfeldränder
 
 Das Spielfeld ist an seinen gegenüberliegenden Seiten miteinander verbunden.
 
@@ -118,7 +121,7 @@ Verlässt du das Spielfeld am oberen Rand, setzt du deine Bewegung unten in ders
 
 ---
 
-## Bewegungsregeln
+### Bewegungsregeln
 
 Während eines Zuges gelten folgende Einschränkungen:
 
@@ -132,7 +135,7 @@ Du darfst über eine Karte ziehen, auf der eine gegnerische Spielfigur steht. De
 
 ---
 
-## Kollabierende Karten
+### Kollabierende Karten
 
 Nach jedem erfolgreich ausgeführten Zug drehst du die Karte um, auf der deine Spielfigur zu Beginn des Zuges stand.
 
@@ -144,7 +147,7 @@ Auch ein Joker kollabiert nach dem Zug genau wie jede andere Startkarte.
 
 ---
 
-## Spielende
+### Spielende
 
 Kannst du die vorgeschriebene Zugweite nicht vollständig und regelgerecht ausführen, endet die Partie sofort.
 
@@ -154,11 +157,52 @@ Es gewinnt der Spieler, der zuletzt einen vollständigen regelgerechten Zug ausf
 
 ---
 
+## Offizielle Buben Variante
+
+Mark S. Balls aktualisierte Regeln für das normale Spiel zu zweit. Die beiden Joker werden durch zwei unterschiedliche Buben ersetzt und der erste Zug jedes Spielers unterscheidet sich ebenfalls.
+
+Für diese Variante auf dem 4 × 4-Spielfeld benötigt ihr:
+
+- 2 unterscheidbare Spielfiguren
+- 2 unterschiedliche Buben
+- 4 Asse
+- 4 Zweien
+- 4 Dreien
+- 2 Vieren
+
+Insgesamt 16 Karten
+
+Bestimmt Spieler 1.
+
+Spieler 1 mischt alle 16 Karten und legt sie offen als 4 × 4-Raster aus.
+
+Der erste Bube, der beim Auslegen erscheint, ist die Startkarte von Spieler 1.
+
+Der zweite Bube ist die Startkarte von Spieler 2.
+
+Jeder Spieler stellt seine Spielfigur auf seinen Startbuben.
+
+Spieler 1 beginnt.
+
+Wenn ein Spieler seinen Startbuben zum ersten Mal verlässt, muss er sich genau 1 Feld weit bewegen.
+
+Nach diesem Eröffnungszug wird der Bube wie üblich umgedreht.
+
+Anschließend bestimmt wie gewohnt die offene Karte, auf der die Spielfigur ihren Zug beendet, die Zugweite für den nächsten Zug.
+
+Alle anderen normalen Regeln für zwei Spieler bleiben unverändert.
+
+Die Wiederbelebungsvarianten in diesem Regelwerk verwenden weiterhin den Joker-Aufbau und die Wahl zwischen 1, 2, 3 oder 4 Feldern beim Zug von einem Joker.
+
+---
+
 ## Optionale Varianten
 
 Die folgenden Regeln können verwendet werden, um Collapsi auf unterschiedliche Weise zu verändern.
 
-Sofern eine Variante nichts anderes bestimmt, gelten weiterhin alle normalen Spielregeln.
+Sofern eine Variante nichts anderes bestimmt, gelten weiterhin alle normalen Spielregeln der Joker Variante. Natürlich könnt Ihr selbst entscheiden, ob Ihr
+Mark's neue Buben Version von Collapsi mit den folgenden Änderungen spielen
+wollt.
 
 ---
 
@@ -261,7 +305,7 @@ Anschließend beginnt die Partie nach den normalen Regeln.
 
 ---
 
-## Wiederbelebungsvarianten
+## Optionale Wiederbelebungsvarianten
 
 Die folgenden Varianten erlauben es, bereits kollabierte Karten wieder ins Spiel zurückzubringen.
 
@@ -270,6 +314,8 @@ Für eine normale Partie sollte höchstens eine Wiederbelebungsvariante verwende
 Mehrere Wiederbelebungsvarianten sollten nur miteinander kombiniert werden, wenn alle Spieler dies ausdrücklich ausprobieren möchten.
 
 Jeder Spieler verfügt unabhängig von den anderen Spielern über seine eigene einmalige Wiederbelebungsmöglichkeit.
+
+Es gelten weiterhin alle normalen Spielregeln der Joker Variante. Natürlich könnt Ihr selbst entscheiden, ob Ihr Mark's neue Buben Version von Collapsi mit den folgenden Änderungen spielen wollt.
 
 ---
 
@@ -365,7 +411,7 @@ Da bei der Rekonstruktion eine Karte wiederhergestellt und gleichzeitig eine and
 
 [Collapsi](https://riffleshuffleandroll.itch.io/collapsi) wurde von Mark S. Ball von Riffle Shuffle & Roll erfunden.
 
-Das herunterladbare Originalregelwerk bezeichnet sich als Collapsi v1.3.1 (zuletzt aktualisiert am 9. Juli 2025). Es verwendet zwei Buben als Startkarten und erlaubt mit jedem Buben als Eröffnungszug genau ein Feld. Diese inoffizielle Edition verwendet bewusst zwei Joker mit einer Zugweite von wahlweise 1, 2, 3 oder 4 Feldern und ergänzt optionale Wiederbelebungsvarianten. Für diese Edition wird keine offizielle Collapsi-Versionsnummer beansprucht.
+Das herunterladbare Originalregelwerk bezeichnet sich als Collapsi v1.3.1 (zuletzt aktualisiert am 9. Juli 2025). Es verwendet zwei Buben als Startkarten und erlaubt mit jedem Buben als Eröffnungszug genau ein Feld. Diese inoffizielle Edition dokumentiert den aktualisierten Aufbau neben dem früheren Joker-Aufbau mit einer Zugweite von wahlweise 1, 2, 3 oder 4 Feldern. Die optionalen Wiederbelebungsvarianten basieren weiterhin auf dem Joker-Aufbau. Für diese Edition wird keine offizielle Collapsi-Versionsnummer beansprucht.
 
 Die Idee der Wiederbelebung sowie die hier beschriebenen Wiederbelebungsvarianten wurden von Johann Duscher (a.k.a. Jonny Dee) entwickelt und werden im [Collapsi-Regelrepository](https://github.com/jonnydee/collapsi) gepflegt.
 

@@ -3,12 +3,15 @@
 [English](rules.md) · [Deutsch](../de/rules.md) · [Français](../fr/rules.md) · [Español](../es/rules.md) · [Repository](https://github.com/jonnydee/collapsi)
 
 Original game by Mark S. Ball  
-Unofficial Joker Edition with optional Revival Variations  
-<small>Edition: Collapsi Revival Edition | Version 1.0.0</small>
+Unofficial rules collection with optional Revival Variations
+
+<small>Edition: Collapsi Revival Edition | Version 1.0.1</small>
 
 ---
 
-## Objective
+## Official Joker Variant
+
+### Objective
 
 Move your pawn across the board as the cards behind you collapse.
 
@@ -18,7 +21,7 @@ The last player to complete a legal move wins.
 
 ---
 
-## Players
+### Players
 
 2 players
 
@@ -26,7 +29,7 @@ Optional larger-board rules are included for 3 and 4 players.
 
 ---
 
-## Components
+### Components
 
 For the standard 4 × 4 game, you need:
 
@@ -45,7 +48,7 @@ A Joker lets you move 1, 2, 3, or 4 spaces.
 
 ---
 
-## Setup
+### Setup
 
 Choose a Player 1.
 
@@ -61,7 +64,7 @@ Player 1 goes first.
 
 ---
 
-## Playing the Game
+### Playing the Game
 
 On your turn, the card under your pawn is your starting card.
 
@@ -83,7 +86,7 @@ The face-up card where your pawn ends its move becomes your starting card for yo
 
 ---
 
-## Movement
+### Movement
 
 Move your pawn orthogonally:
 
@@ -104,7 +107,7 @@ For example, if you must move four spaces, you could move:
 
 ---
 
-## Wrapping Around the Board
+### Wrapping Around the Board
 
 The board wraps around at its edges.
 
@@ -116,7 +119,7 @@ Likewise, if you move beyond the top edge, continue from the bottom of the same 
 
 ---
 
-## Movement Restrictions
+### Movement Restrictions
 
 During a single turn:
 
@@ -130,7 +133,7 @@ You may move through a card occupied by another player's pawn, but you cannot en
 
 ---
 
-## Collapsing Cards
+### Collapsing Cards
 
 After every successful move, turn the card where you started your turn face down.
 
@@ -142,7 +145,7 @@ A Joker collapses just like any other starting card.
 
 ---
 
-## Ending the Game
+### Ending the Game
 
 If you cannot complete your required move legally, the game ends immediately.
 
@@ -152,11 +155,50 @@ The last player to complete a legal move wins.
 
 ---
 
+## Official Jack Variant
+
+Mark S. Ball's updated rules for the standard 2-player game. The two Jokers are replaced by two different Jacks, and each player's first move is also different.
+
+For this 4 × 4 version, use:
+
+- 2 distinguishable pawns
+- 2 different Jacks
+- 4 Aces
+- 4 Twos
+- 4 Threes
+- 2 Fours
+
+16 cards total
+
+Choose a Player 1.
+
+Player 1 shuffles all 16 cards and deals them face up in a 4 × 4 grid.
+
+The first Jack dealt is Player 1's starting card.
+
+The second Jack is Player 2's starting card.
+
+Each player places their pawn on their starting Jack.
+
+Player 1 goes first.
+
+The first time each player moves from their starting Jack, they must move exactly 1 space.
+
+After completing that opening move, turn the Jack face down as normal.
+
+From then on, the face-up card where the player's pawn ends determines their movement on the next turn as normal.
+
+All other normal 2-player rules remain in effect.
+
+The Revival Variations in this rulebook continue to use the Joker setup and the choice of moving 1, 2, 3, or 4 spaces from a Joker.
+
+---
+
 ## Optional Variations
 
-The following rules change the way Collapsi plays.
+The following rules can be used to change Collapsi in different ways.
 
-Unless a variation says otherwise, all normal rules remain in effect.
+Unless a variation says otherwise, all normal rules of the Joker variant remain in effect. You may, of course, decide to play Mark's new Jack version of Collapsi with the following changes instead.
 
 ---
 
@@ -263,7 +305,7 @@ Play then proceeds normally.
 
 ---
 
-## Revival Variations
+## Optional Revival Variations
 
 The following variations allow collapsed cards to return to play.
 
@@ -272,6 +314,8 @@ For normal play, use no more than one Revival Variation per game.
 Combine multiple Revival Variations only if all players agree to experiment with them.
 
 Each player's once-per-game Revival ability is tracked separately.
+
+All normal rules of the Joker variant remain in effect. You may, of course, decide to play Mark's new Jack version of Collapsi with the following changes instead.
 
 ---
 
@@ -367,7 +411,7 @@ Reconstruction changes the layout of the playable board without increasing the t
 
 [Collapsi](https://riffleshuffleandroll.itch.io/collapsi) was invented by Mark S. Ball of Riffle Shuffle & Roll.
 
-The downloadable original rulebook identifies itself as Collapsi v1.3.1 (last updated July 9, 2025). It uses two Jacks as starting cards and gives each Jack a one-space opening move. This unofficial edition deliberately uses two Jokers with a choice of 1, 2, 3, or 4 spaces and adds optional Revival Variations. No official Collapsi version number is claimed for this edition.
+The downloadable original rulebook identifies itself as Collapsi v1.3.1 (last updated July 9, 2025). It uses two Jacks as starting cards and gives each Jack a one-space opening move. This unofficial edition documents that updated setup alongside the earlier Joker setup, with its choice of 1, 2, 3, or 4 spaces. The optional Revival Variations remain based on the Joker setup. No official Collapsi version number is claimed for this edition.
 
 The Revival concept and the Revival Variations presented here were conceived by Johann Duscher (a.k.a. Jonny Dee) and are maintained in the [Collapsi rules repository](https://github.com/jonnydee/collapsi).
 

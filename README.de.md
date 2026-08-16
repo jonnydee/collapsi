@@ -4,11 +4,11 @@
 
 Dieses Repository enthält eine **inoffizielle** mehrsprachige Regelsammlung für [Collapsi](https://riffleshuffleandroll.itch.io/collapsi), das abstrakte Strategiespiel von **Mark S. Ball** von Riffle Shuffle & Roll.
 
-Die aktuelle Veröffentlichung, die **Collapsi Revival Edition**, verwendet Joker als Startkarten und enthält optionale **Wiederbelebungsvarianten** von **Johann Duscher (a.k.a. Jonny Dee)**. Durch diese Ergänzungen können kollabierte Karten auf verschiedene kontrollierte Arten ins Spiel zurückkehren. Das Projekt ist unabhängig und keine offizielle Veröffentlichung von Mark S. Ball.
+Die aktuelle Veröffentlichung, die **Collapsi Revival Edition**, dokumentiert sowohl Mark S. Balls aktualisierten Aufbau mit Buben für das normale Spiel zu zweit als auch den früheren Aufbau mit Jokern. Sie enthält außerdem optionale **Wiederbelebungsvarianten** von **Johann Duscher (a.k.a. Jonny Dee)**. Diese basieren weiterhin auf dem Joker-Aufbau und lassen kollabierte Karten auf verschiedene kontrollierte Arten ins Spiel zurückkehren. Das Projekt ist unabhängig und keine offizielle Veröffentlichung von Mark S. Ball.
 
 ## Originalreferenz und aktuelle Veröffentlichung
 
-Das herunterladbare Originalregelwerk bezeichnet sich als **Collapsi v1.3.1**, zuletzt aktualisiert am 9. Juli 2025. Es verwendet zwei Buben als Startkarten; jeder Bube erlaubt als Eröffnungszug genau ein Feld. Die aktuelle inoffizielle Veröffentlichung verwendet stattdessen zwei Joker mit einer Zugweite von wahlweise 1, 2, 3 oder 4 Feldern und ergänzt die Wiederbelebungsvarianten. Andere Erklärungen auf dem [YouTube-Kanal von Riffle Shuffle & Roll](https://www.youtube.com/@riffleshuffleandroll) können andere Entwicklungsstände des Originalspiels zeigen; dieses Repository leitet daraus keine offizielle Versionsnummer ab.
+Das herunterladbare Originalregelwerk bezeichnet sich als **Collapsi v1.3.1**, zuletzt aktualisiert am 9. Juli 2025. Es verwendet zwei Buben als Startkarten; jeder Bube erlaubt als Eröffnungszug genau ein Feld. Diese inoffizielle Veröffentlichung dokumentiert den aktualisierten Aufbau neben dem früheren Joker-Aufbau, bei dem eine Zugweite von 1, 2, 3 oder 4 Feldern gewählt wird. Die Wiederbelebungsvarianten basieren weiterhin auf dem Joker-Aufbau. Andere Erklärungen auf dem [YouTube-Kanal von Riffle Shuffle & Roll](https://www.youtube.com/@riffleshuffleandroll) können andere Entwicklungsstände des Originalspiels zeigen; dieses Repository leitet daraus keine offizielle Versionsnummer ab.
 
 ## Spielanleitungen
 
@@ -23,7 +23,7 @@ Die Stammdatei `README.md` ist englisch, weil GitHub genau diese Datei automatis
 
 ## Versionierung
 
-Diese Regelsammlung verwendet eine **eigene semantische Version** und einen veröffentlichungsspezifischen Editionsnamen. Die aktuelle Veröffentlichung ist die **Collapsi Revival Edition**, Version **1.0.0**. Releases und Git-Tags verwenden `edition-vMAJOR.MINOR.PATCH`, zum Beispiel `edition-v1.0.0`. Die Schritte für eine Veröffentlichung stehen in der englischen [Release-Checkliste](RELEASE.md).
+Diese Regelsammlung verwendet eine **eigene semantische Version** und einen Editionsnamen. Die aktuelle Veröffentlichung ist die **Collapsi Revival Edition**, Version **1.0.1**. Bei kompatiblen Patch-Releases bleibt der Editionsname bestehen; Releases mit neuen Varianten erhalten einen neuen Namen. Releases und Git-Tags verwenden `edition-vMAJOR.MINOR.PATCH`, zum Beispiel `edition-v1.0.1`. Die Schritte für eine Veröffentlichung stehen in der englischen [Release-Checkliste](RELEASE.md).
 
 Diese Nummer bezeichnet ausschließlich diese inoffizielle Regelsammlung. Sie ist bewusst unabhängig von unbekannten oder später geänderten Versionen des Originalregelwerks und darf nicht als offizielle Collapsi-Version dargestellt werden. Die Kompatibilität zu einer bestimmten Originalfassung gehört stattdessen in die Release Notes.
 

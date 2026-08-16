@@ -1,6 +1,6 @@
 [project]
 name = "collapsi-pdf-build"
-version = "1.0.0"
+version = "1.0.1"
 requires-python = ">=3.12,<3.13"
 dependencies = [
   "reportlab==4.4.9",

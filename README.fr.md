@@ -4,11 +4,11 @@
 
 Ce dépôt contient une collection multilingue **non officielle** de règles de [Collapsi](https://riffleshuffleandroll.itch.io/collapsi), le jeu de stratégie abstrait inventé par **Mark S. Ball** de Riffle Shuffle & Roll.
 
-La publication actuelle, **Collapsi Revival Edition**, utilise des Jokers comme cartes de départ et inclut des **variantes de Renaissance** facultatives créées par **Johann Duscher (a.k.a. Jonny Dee)**. Ces ajouts permettent aux cartes effondrées de revenir en jeu de plusieurs manières contrôlées. Ce projet est indépendant et n'est pas une publication officielle de Mark S. Ball.
+La publication actuelle, **Collapsi Revival Edition**, présente à la fois la mise en place actualisée de Mark S. Ball avec des Valets pour la partie standard à 2 joueurs et l'ancienne mise en place avec des Jokers. Elle inclut également des **variantes de Renaissance** facultatives créées par **Johann Duscher (a.k.a. Jonny Dee)** ; celles-ci continuent d'utiliser la mise en place avec les Jokers et permettent aux cartes effondrées de revenir en jeu de plusieurs manières contrôlées. Ce projet est indépendant et n'est pas une publication officielle de Mark S. Ball.
 
 ## Référence originale et publication actuelle
 
-Le livret de règles original téléchargeable s'identifie comme **Collapsi v1.3.1**, dernière mise à jour le 9 juillet 2025. Il utilise deux Valets comme cartes de départ, chaque Valet permettant un déplacement initial d'une case. La publication non officielle actuelle utilise délibérément à la place deux Jokers, avec le choix de 1, 2, 3 ou 4 cases, et ajoute les variantes de Renaissance. D'autres explications sur la [chaîne YouTube Riffle Shuffle & Roll](https://www.youtube.com/@riffleshuffleandroll) peuvent refléter différents stades du développement du jeu original ; ce dépôt n'en déduit aucun numéro de version officiel.
+Le livret de règles original téléchargeable s'identifie comme **Collapsi v1.3.1**, dernière mise à jour le 9 juillet 2025. Il utilise deux Valets comme cartes de départ, chaque Valet permettant un déplacement initial d'une case. Cette publication non officielle présente cette mise en place actualisée aux côtés de l'ancienne mise en place avec des Jokers, qui permet de choisir un déplacement de 1, 2, 3 ou 4 cases. Les variantes de Renaissance restent fondées sur la mise en place avec les Jokers. D'autres explications sur la [chaîne YouTube Riffle Shuffle & Roll](https://www.youtube.com/@riffleshuffleandroll) peuvent refléter différents stades du développement du jeu original ; ce dépôt n'en déduit aucun numéro de version officiel.
 
 ## Règles
 
@@ -23,7 +23,7 @@ Le README racine est en anglais parce que GitHub affiche automatiquement `README
 
 ## Versionnement
 
-Cette collection de règles utilise sa **propre version sémantique** et un nom d'édition propre à chaque publication. La publication actuelle est **Collapsi Revival Edition**, version **1.0.0**. Les publications et balises Git emploient `edition-vMAJOR.MINOR.PATCH`, par exemple `edition-v1.0.0`. Consultez la [liste de publication](RELEASE.md), disponible en anglais, avant de publier.
+Cette collection de règles utilise sa **propre version sémantique** et un nom d'édition. La publication actuelle est **Collapsi Revival Edition**, version **1.0.1**. Les correctifs compatibles conservent le nom de l'édition ; les publications qui ajoutent des variantes reçoivent un nouveau nom. Les publications et balises Git emploient `edition-vMAJOR.MINOR.PATCH`, par exemple `edition-v1.0.1`. Consultez la [liste de publication](RELEASE.md), disponible en anglais, avant de publier.
 
 Ce numéro identifie uniquement cette collection de règles non officielle. Il est volontairement indépendant des versions inconnues ou évolutives des règles originales de Collapsi et ne doit pas être présenté comme une version officielle de Collapsi. La compatibilité avec une version précise des règles originales doit être documentée dans les notes de publication plutôt que codée dans le numéro de version.
 

@@ -3,12 +3,15 @@
 [English](../en/rules.md) · [Deutsch](../de/rules.md) · [Français](../fr/rules.md) · [Español](rules.md) · [Repositorio](https://github.com/jonnydee/collapsi)
 
 Juego original de Mark S. Ball  
-Edición Joker no oficial con variantes de Renacimiento opcionales  
-<small>Edición: Collapsi Revival Edition | Versión 1.0.0</small>
+Colección de reglas no oficial con variantes de Renacimiento opcionales
+
+<small>Edición: Collapsi Revival Edition | Versión 1.0.1</small>
 
 ---
 
-## Objetivo
+## Variante oficial con Jokers
+
+### Objetivo
 
 Mueve tu peón por el tablero mientras las cartas que quedan detrás de él colapsan.
 
@@ -18,7 +21,7 @@ Gana el último jugador que complete un movimiento legal.
 
 ---
 
-## Jugadores
+### Jugadores
 
 2 jugadores
 
@@ -26,7 +29,7 @@ Se incluyen reglas opcionales de tableros más grandes para 3 y 4 jugadores.
 
 ---
 
-## Componentes
+### Componentes
 
 Para la partida estándar de 4 × 4, necesitas:
 
@@ -45,7 +48,7 @@ Un Joker te permite mover 1, 2, 3 o 4 casillas.
 
 ---
 
-## Preparación
+### Preparación
 
 Elegid al jugador 1.
 
@@ -61,7 +64,7 @@ El jugador 1 empieza.
 
 ---
 
-## Desarrollo de la partida
+### Desarrollo de la partida
 
 En tu turno, la carta bajo tu peón es tu carta inicial.
 
@@ -83,7 +86,7 @@ La carta boca arriba en la que termina tu peón se convierte en tu carta inicial
 
 ---
 
-## Movimiento
+### Movimiento
 
 Mueve tu peón ortogonalmente:
 
@@ -104,7 +107,7 @@ Por ejemplo, si debes moverte cuatro casillas, puedes:
 
 ---
 
-## Bordes conectados del tablero
+### Bordes conectados del tablero
 
 El tablero se conecta por sus bordes opuestos.
 
@@ -116,7 +119,7 @@ Del mismo modo, si te mueves más allá del borde superior, continúa desde la p
 
 ---
 
-## Restricciones de movimiento
+### Restricciones de movimiento
 
 Durante un mismo turno:
 
@@ -130,7 +133,7 @@ Puedes atravesar una carta ocupada por el peón de otro jugador, pero no puedes 
 
 ---
 
-## Colapso de cartas
+### Colapso de cartas
 
 Después de cada movimiento exitoso, gira boca abajo la carta donde comenzó tu turno.
 
@@ -142,7 +145,7 @@ Un Joker colapsa igual que cualquier otra carta inicial.
 
 ---
 
-## Final de la partida
+### Final de la partida
 
 Si no puedes completar legalmente tu movimiento obligatorio, la partida termina de inmediato.
 
@@ -152,11 +155,50 @@ Gana el último jugador que complete un movimiento legal.
 
 ---
 
+## Variante oficial con Jotas
+
+Las reglas actualizadas de Mark S. Ball para la partida estándar de 2 jugadores. Los dos Jokers se sustituyen por dos Jotas distintas y el primer movimiento de cada jugador también cambia.
+
+Para esta versión de 4 × 4, usa:
+
+- 2 peones distinguibles
+- 2 Jotas distintas
+- 4 Ases
+- 4 Doses
+- 4 Treses
+- 2 Cuatros
+
+16 cartas en total
+
+Elige al jugador 1.
+
+El jugador 1 baraja las 16 cartas y las reparte boca arriba en una cuadrícula de 4 × 4.
+
+La primera Jota repartida es la carta inicial del jugador 1.
+
+La segunda Jota es la carta inicial del jugador 2.
+
+Cada jugador coloca su peón en su Jota inicial.
+
+El jugador 1 empieza.
+
+La primera vez que cada jugador se aleja de su Jota inicial, debe mover exactamente 1 casilla.
+
+Después de completar ese movimiento inicial, gira la Jota boca abajo como de costumbre.
+
+A partir de entonces, la carta boca arriba en la que termine el peón del jugador determina, como de costumbre, su movimiento en el turno siguiente.
+
+Todas las demás reglas normales para 2 jugadores siguen vigentes.
+
+Las variantes de Renacimiento de este reglamento siguen usando la configuración con Jokers y la elección de mover 1, 2, 3 o 4 casillas desde un Joker.
+
+---
+
 ## Variantes opcionales
 
-Las siguientes reglas modifican la forma de jugar a Collapsi.
+Las siguientes reglas pueden usarse para modificar Collapsi de distintas formas.
 
-Salvo que una variante indique lo contrario, todas las reglas normales siguen vigentes.
+Salvo que una variante indique lo contrario, siguen vigentes todas las reglas normales de la variante con Jokers. Por supuesto, podéis decidir usar en su lugar la nueva versión de Collapsi con Jotas de Mark junto con los siguientes cambios.
 
 ---
 
@@ -263,7 +305,7 @@ La partida continúa normalmente.
 
 ---
 
-## Variantes de Renacimiento
+## Variantes de Renacimiento opcionales
 
 Las siguientes variantes permiten que las cartas colapsadas vuelvan al juego.
 
@@ -272,6 +314,8 @@ Para una partida normal, no uses más de una variante de Renacimiento por partid
 Combina varias variantes de Renacimiento solo si todos los jugadores aceptan experimentar con ellas.
 
 La habilidad de Renacimiento de una vez por partida de cada jugador se controla por separado.
+
+Siguen vigentes todas las reglas normales de la variante con Jokers. Por supuesto, podéis decidir usar en su lugar la nueva versión de Collapsi con Jotas de Mark junto con los siguientes cambios.
 
 ---
 
@@ -367,7 +411,7 @@ La Reconstrucción cambia la disposición del tablero jugable sin aumentar el n�
 
 [Collapsi](https://riffleshuffleandroll.itch.io/collapsi) fue inventado por Mark S. Ball, de Riffle Shuffle & Roll.
 
-El reglamento original descargable se identifica como Collapsi v1.3.1 (actualizado por última vez el 9 de julio de 2025). Usa dos Jotas como cartas iniciales y cada Jota permite un movimiento inicial de una casilla. Esta edición no oficial usa deliberadamente dos Jokers, con una elección de 1, 2, 3 o 4 casillas, e incorpora las variantes de Renacimiento opcionales. Esta edición no reclama ningún número de versión oficial de Collapsi.
+El reglamento original descargable se identifica como Collapsi v1.3.1 (actualizado por última vez el 9 de julio de 2025). Usa dos Jotas como cartas iniciales y cada Jota permite un movimiento inicial de una casilla. Esta edición no oficial documenta esa configuración actualizada junto con la configuración anterior con Jokers y su elección de 1, 2, 3 o 4 casillas. Las variantes de Renacimiento opcionales siguen basándose en la configuración con Jokers. Esta edición no reclama ningún número de versión oficial de Collapsi.
 
 El concepto de Renacimiento y las variantes de Renacimiento que se presentan aquí fueron concebidos por Johann Duscher (a.k.a. Jonny Dee) y se mantienen en el [repositorio de reglas de Collapsi](https://github.com/jonnydee/collapsi).
 

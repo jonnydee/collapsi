@@ -43,6 +43,11 @@ For the standard 2-player 4 × 4 game, require:
 - 2 Fours;
 - 16 cards total.
 
+For the inventor's updated standard 2-player 4 × 4 setup, replace the two
+Jokers with two different Jacks. The first Jack dealt belongs to Player 1 and
+the second to Player 2. Each player's first move from their starting Jack is
+exactly one space. All other normal 2-player rules remain in effect.
+
 For the 3-player 5 × 5 game, require 3 Jokers, 6 Aces, 6 Twos, 6 Threes, and 4 Fours: 25 cards total.
 
 For the 4-player 6 × 6 game, require 4 Jokers and 8 each of Aces, Twos, Threes, and Fours: 36 cards total. If fewer than four players use this board, unused Jokers start face down.
@@ -86,12 +91,15 @@ A Joker allows a move of 1, 2, 3, or 4 spaces. Movement is orthogonal and may ch
 - Johann Duscher (a.k.a. Jonny Dee) originated the Revival concept and Revival Variations.
 - This repository is unofficial and must not imply Mark S. Ball's endorsement.
 - The original downloadable rulebook identifies itself as Collapsi v1.3.1, last updated July 9, 2025. It uses Jacks with a one-space opening move.
-- The current release deliberately uses Jokers with a choice of 1–4 spaces.
+- The current release documents the inventor's updated 2-player Jack setup with
+  a one-space opening move alongside the earlier Joker setup.
+- The Revival Variations deliberately remain based on Jokers with a choice of
+  1–4 spaces.
 - Every release has a release-specific name from `EDITION_NAME` and its own version from `VERSION`.
 - Display the edition name and version visibly but unobtrusively in every rulebook.
 - Never present the edition name or version as official Collapsi metadata.
 
-Do not change the edition name or bump the project version only because a translation was added unless preparing a release at the user's request. For a release, choose a new `EDITION_NAME`, follow Semantic Versioning, and update `VERSION`, `RELEASE_DATE`, every rulebook edition/version line, every README, and `CHANGELOG.md` together. Tags use `edition-vMAJOR.MINOR.PATCH`.
+Do not change the edition name or bump the project version only because a translation was added unless preparing a release at the user's request. For a release, explicitly confirm `EDITION_NAME`, follow Semantic Versioning, and update `VERSION`, `RELEASE_DATE`, every rulebook edition/version line, every README, and `CHANGELOG.md` together. Compatible patch releases may retain their edition name; releases that add variants or change the edition's scope require a new name. Tags use `edition-vMAJOR.MINOR.PATCH`.
 
 ## Attribution, licensing, and links
 
