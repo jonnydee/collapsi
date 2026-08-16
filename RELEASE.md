@@ -82,11 +82,3 @@ Git tags remain stable and use `edition-vMAJOR.MINOR.PATCH`.
 11. After publication, confirm the tag resolves to the release commit, the
     release links work, the PDFs download correctly, and the release notes do
     not call this an official Collapsi release.
-
-## Before the first release
-
-In addition to the checklist, make an explicit maintainer decision that the
-edition name is final, the current mechanics are stable, the wording has been
-reviewed by fluent readers where available, and the license and attribution
-statements accurately reflect the rights held. The first release date is the
-publication date, not the date on which development began.
