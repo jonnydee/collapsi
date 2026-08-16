@@ -10,27 +10,25 @@ Ball.
 
 Use [Semantic Versioning](https://semver.org/):
 
-- **PATCH** (`1.0.1`) for corrections that do not change the rules, including
-  layout and translation corrections.
-- **MINOR** (`1.1.0`) for backward-compatible additions, such as an optional
-  Revival variation or a completed language edition.
+- **PATCH** (`1.0.1`) for compatible corrections, clarifications, presentation
+  fixes, translation corrections, a new language translation, or upstream updates to a ruleset.
+- **MINOR** (`1.1.0`) for backward-compatible additions, such as a new optional ruleset variant.
 - **MAJOR** (`2.0.0`) for an incompatible rule or interpretation change.
 
-For the first public release, use `1.0.0` when the rules and accompanying
-materials are considered stable.
-
-Every release must explicitly define a new edition name in `EDITION_NAME`.
-Never carry the previous release's name forward automatically. Choose a concise
-name that reflects the release's defining rules. For version `1.0.0`, the name
-is `Collapsi Revival Edition`. Edition names are human-readable release titles;
-Git tags remain stable and use `edition-vMAJOR.MINOR.PATCH`.
+Every release must explicitly confirm its edition name in `EDITION_NAME`.
+Compatible patch releases normally retain the existing edition name. A minor or
+major release that adds a new variant or otherwise changes the edition's scope
+must receive a new, concise name that reflects its defining rules. Never carry
+the previous name forward without making this decision. Edition names are human-readablerelease titles; Git tags remain stable and use
+`edition-vMAJOR.MINOR.PATCH`.
 
 ## Release checklist
 
 1. Decide the final edition name, version, and UTC release date in ISO 8601
-   form: `YYYY-MM-DD`. Confirm that the name is new for this release, accurately
-   describes its defining rules, and is not presented as an official Collapsi
-   title.
+   form: `YYYY-MM-DD`. For a compatible patch, explicitly confirm whether the
+   existing name still fits. For a minor or major release with new variants or
+   a changed scope, choose a new name. Confirm that the result accurately
+   describes the release and is not presented as an official Collapsi title.
 2. Review the complete working tree. Include only release-ready changes and
    remove no third-party license notices, original-game attribution, or the
    statement that the edition is unofficial.
@@ -42,10 +40,10 @@ Git tags remain stable and use `edition-vMAJOR.MINOR.PATCH`.
 
    | Location | Required change |
    | --- | --- |
-   | `EDITION_NAME` | Release-specific edition name, for example `Collapsi Revival Edition`; choose a new name for every release. |
-   | `VERSION` | Final SemVer release version, for example `1.0.0`. |
-   | `RELEASE_DATE` | Final UTC date, for example `2026-08-15`; use the actual publication date. |
-   | `pyproject.toml` | Matching PEP 440 project version (`1.0.0` for a final release). |
+   | `EDITION_NAME` | Confirm the edition name; retain it for a compatible patch or choose a new one when a release adds variants or changes scope. |
+   | `VERSION` | Final SemVer release version, for example `1.0.1`. |
+   | `RELEASE_DATE` | Final UTC date, for example `2026-08-16`; use the actual publication date. |
+   | `pyproject.toml` | Matching PEP 440 project version (`1.0.1` for this release). |
    | `docs/*/rules.md` | Set the unobtrusive edition and version line to `EDITION_NAME` and `VERSION`; remove any pre-release wording if present. |
    | `CHANGELOG.md` | Add an entry headed `## VERSION - YYYY-MM-DD - EDITION_NAME`, with concise user-visible changes. |
    | `README*.md` | Update the displayed current edition name and version. |
@@ -72,10 +70,10 @@ Git tags remain stable and use `edition-vMAJOR.MINOR.PATCH`.
    that `git status` shows only intentional release files.
 9. Commit the release metadata, sources, and generated PDFs together. Create
    an annotated tag named `edition-vMAJOR.MINOR.PATCH`, for example
-   `edition-v1.0.0`, on that exact commit.
+   `edition-v1.0.1`, on that exact commit.
 10. Push the commit and tag. Create the GitHub Release from the annotated tag,
     title it `EDITION_NAME vMAJOR.MINOR.PATCH`, for example
-    `Collapsi Revival Edition v1.0.0`, and use the matching changelog entry as
+    `Collapsi Revival Edition v1.0.1`, and use the matching changelog entry as
     its notes. State clearly that it is an unofficial Collapsi rules release
     and summarize its defining rules. Attach the four language PDFs if they
     are not otherwise easy to download from the release page.

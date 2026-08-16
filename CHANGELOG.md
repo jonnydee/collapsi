@@ -6,6 +6,7 @@ All notable changes to this unofficial Collapsi rules collection are documented 
 
 - Added Mark S. Ball's updated Jack setup for the standard 2-player game in all four languages.
 - Clarified that the optional Revival Variations continue to use the Joker setup and its choice of a 1-, 2-, 3-, or 4-space opening move.
+- Documented that compatible patch releases retain their edition name, while releases that add new variants receive a new edition name.
 
 ## 1.0.0 - 2026-08-15 - Collapsi Revival Edition
 
